@@ -16,6 +16,8 @@ if (definizione != null || definizione != undefined) {
   console.log("frutta non trovata");
 }
 
+console.log("DEFINIZIONE", typeof definizione);
+
 //////////////////////
 let macchine = {
   alfaRomeo: "ottima scelta",
@@ -26,11 +28,30 @@ let macchine = {
 };
 
 let modelloMacchina = "ford";
-
 let MacchinaCheHaiComprato = macchine[modelloMacchina];
 
 if (MacchinaCheHaiComprato != null || MacchinaCheHaiComprato != undefined) {
   console.log("la macchina che hai scelto è:", modelloMacchina, "(", MacchinaCheHaiComprato, ")");
 } else {
   console.log("la macchina che hai selezionato non è disponibile");
+}
+
+console.log("macchinachehaicomprato", typeof MacchinaCheHaiComprato);
+
+////////////////////////////////////////
+let guardaroba = {
+  pantalone: "indumento unisex",
+  gonna: "indumento femminile",
+  costume: "si indossa al mare",
+  ["t-shirt"]: "si indossa quando fa caldo",
+  felpa: "si indossa quando fa freddo",
+};
+
+let IndumentoCheVoglioIndossare = "costume";
+let IndumentoScelto = guardaroba[IndumentoCheVoglioIndossare];
+
+if (IndumentoScelto != null || IndumentoScelto != undefined) {
+  console.log("indumento scelto è:", IndumentoCheVoglioIndossare, ":", IndumentoScelto);
+} else {
+  console.log("indumento scelto non è presente");
 }

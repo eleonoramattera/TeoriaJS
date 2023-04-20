@@ -18,5 +18,5 @@ console.log(carValue);
 const carEntries = Object.entries(car);
 console.log(carEntries);
 
-const carNuova = carKey[2];
-console.log(carNuova);
+const NewCar = carKey[2];
+console.log(NewCar); //year
