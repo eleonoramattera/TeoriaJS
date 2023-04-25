@@ -130,6 +130,7 @@ console.log(Array.isArray(vocali)); //ritorna true o false
 //Array.from() CREA UN'ARRAY DA UN OGGETTO ITERABILE
 let lettere = "ciao a tutti";
 let lettere2 = Array.from(lettere);
+console.log("-----------------------------------------");
 console.log(lettere2);
 
 //Array.of() CREA UN NUOVA ISTANZA DAGLI ARGOMENTI indipendentemente dal numero e tipo degli argomenti
