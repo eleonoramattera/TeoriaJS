@@ -30,12 +30,11 @@ function ciao() {
 ciao(); // così la sto invocando
 
 //FUNZIONI ANONIME non hanno nomi (si usano nelle CALL BACK)
-/*const myButton = document.querySelector("button");
+const myButton = document.querySelector("button");
 
 myButton.onclick = function () {
   console.log("bottone");
 };
-*/
 
 const nome = function () {
   console.log("mi chiamo ele");
@@ -43,6 +42,9 @@ const nome = function () {
 nome();
 
 //FUNZIONI FRECCIA
+const arrowFunction = (num) => {
+  num + 2;
+};
 
 //FUNZIONE DENTRO FUNZIONE
 let materia = "storia";
@@ -87,3 +89,6 @@ function generaFooter() {
 }
 
 generaTabella();
+
+//RETURN
+//funzione ci ritorna un valore. return deve essere l'ultima cosa che scrivo (serve per portare il valore fuori o rimarrebbe nella funzione)
