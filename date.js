@@ -71,10 +71,10 @@ console.log(Date.now());
 //getFullYear() - restituisce l'anno corrente
 //getMonth() - restituisce il numero del mese corrente ( da 0 a 11 (gennaio= 0/ dicembre=11))
 //getDate() - restituisce il numero del giorno corrente nel mese (1 -31);
-//getDay() - restituisce il numero del giorno corrente nella settimana (0 = domenica; 1 = lunedì; 2 = martedì ecc)
+//getDay() - restituisce il numero del giorno corrente nella settimana da 0 a 6 (0 = domenica; 1 = lunedì; 2 = martedì ecc)
 //getMinutes() - restituisce il minuto corrente (0 - 59);
 //getSeconds() - restituisce il secondo corrente (0 - 59);
-//getMilliseconds() - restituisce il millisecondo corrente
+//getMilliseconds() - restituisce il millisecondo corrente ( 0 - 999)
 //getTime() - restituisce il numero di millisecondi per questa data dall'epoca, definita come la mezzanotte all'inizio del 1° gennaio 1970, UTC.
 // getTimezoneOffset()
 
