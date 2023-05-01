@@ -59,7 +59,7 @@ console.log(ss.toLowerCase());
 let ss1 = "İstanbul";
 console.log(ss1.toLocaleLowerCase("en-US"));
 
-//.toUpperCase() RITORNA STRINGA IN MAUISCOLO
+//.toUpperCase() RITORNA STRINGA INs MAUISCOLO
 let ss2 = "Ciao a tutti. Buongiorno. Sono una stringa";
 console.log(ss2.toUpperCase());
 

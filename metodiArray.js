@@ -57,7 +57,7 @@ let spesa = ["latte", "pasta", "uova", "frutta", "miele", "lenticchie", "formagg
 let spesaRidotta = spesa.slice(2, 4); // 1n = posizione di partenza (uova) Indice in base zero in corrispondenza del quale avviare l'estrazione
 //2n= Indice in base zero in corrispondenza del quale terminare l'estrazione. il n che scrivo non è compreso nell'estrazione (opzionale)
 console.log(spesaRidotta);
-let spesaRidotta2 = spesa.splice(-2); //con il - parto dalla fine
+let spesaRidotta2 = spesa.slice(-2); //con il - parto dalla fine
 console.log(spesaRidotta2);
 
 //splice() MODIFICA ARRAY DI BASE ELIMINANDO O SOSTITUENDO ELEMETI. METODO CHE MUTA
