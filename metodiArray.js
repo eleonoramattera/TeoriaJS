@@ -28,7 +28,7 @@ console.log(numeriLettere.length);
 let array = ["questo", "è", "un", "array"];
 console.log(array.valueOf());
 
-//.push() AGGIUNGERE ELEMENTO
+//.push() AGGIUNGERE ELEMENTO ALLA FINE
 let arr = ["lunedi", "martedi", "mercoledi"];
 arr.push("giovedi");
 console.log(arr);
